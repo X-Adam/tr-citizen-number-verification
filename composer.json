@@ -1,0 +1,26 @@
+{
+    "name": "x-adam/tr-citizen-number-verification",
+    "description": "Turkey citizen number (TC No) verification class.\n\n",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet ÖĞMEN",
+            "email": "www@mehmetogmen.com.tr",
+            "homepage": "https://www.mehmetogmen.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-soap": "*",
+        "x-adam/tr-citizen-number-validation": ">=1",
+        "x-adam/tr-string": ">=1"
+    },
+    "autoload": {
+        "files": [
+            "./src/TrCitizenNumberVerification.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
