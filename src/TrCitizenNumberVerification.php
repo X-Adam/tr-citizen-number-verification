@@ -7,7 +7,7 @@ class TrCitizenNumberVerification
     const API_URL = 'https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL';
     private static $client = null;
 
-    public static function verify($citizen_number, $birth_year, $name, $surname)
+    public static function verify(int $citizen_number, int $birth_year, string $name, string $surname): bool
     {
         if (!TrCitizenNumberValidation::validate($citizen_number)) {
             return false;

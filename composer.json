@@ -12,10 +12,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.0",
         "ext-soap": "*",
-        "x-adam/tr-citizen-number-validation": ">=2",
-        "x-adam/tr-string": ">=2"
+        "x-adam/tr-citizen-number-validation": ">=3",
+        "x-adam/tr-string": ">=3"
     },
     "autoload": {
         "files": [
