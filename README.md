@@ -18,7 +18,7 @@ Turkey citizen number (TC No) verification class. It uses the <a href="https://t
 
 ## Requirements
 
-1. PHP >=7.0
+1. PHP >=7.4
 2. PHP SOAP extension have to be loaded.
 
 Other than that, this library has no requirements.
@@ -26,7 +26,7 @@ Other than that, this library has no requirements.
 ## Install
 
 ```bash
-$ composer require x-adam/tr-citizen-number-verification:"~3"
+$ composer require x-adam/tr-citizen-number-verification:"~4"
 ```
 
 ## Example Usage

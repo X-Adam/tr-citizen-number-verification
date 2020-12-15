@@ -4,8 +4,8 @@ namespace XAdam;
 
 class TrCitizenNumberVerification
 {
-    const API_URL = 'https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL';
-    private static $client = null;
+    public const API_URL = 'https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL';
+    private static ?object $client = null;
 
     public static function verify(int $citizen_number, int $birth_year, string $name, string $surname): bool
     {
