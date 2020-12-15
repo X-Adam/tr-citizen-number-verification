@@ -1,6 +1,6 @@
 {
     "name": "x-adam/tr-citizen-number-verification",
-    "description": "Turkey citizen number (TC No) verification class.\n\n",
+    "description": "Turkey citizen number (TC No) verification class.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,10 +12,10 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.4",
         "ext-soap": "*",
-        "x-adam/tr-citizen-number-validation": ">=1",
-        "x-adam/tr-string": ">=1"
+        "x-adam/tr-citizen-number-validation": ">=2",
+        "x-adam/tr-string": ">=2"
     },
     "autoload": {
         "files": [

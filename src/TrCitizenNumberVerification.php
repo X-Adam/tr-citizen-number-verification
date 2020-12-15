@@ -21,12 +21,12 @@ class TrCitizenNumberVerification
             static::$client = new \SoapClient(static::API_URL);
         }
 
-        $response = static::$client->TCKimlikNoDogrula(array(
+        $response = static::$client->TCKimlikNoDogrula([
             'TCKimlikNo' => $citizen_number,
             'Ad' => tr_strtoupper($name),
             'Soyad' => tr_strtoupper($surname),
             'DogumYili' => $birth_year
-        ));
+        ]);
 
         return $response->TCKimlikNoDogrulaResult;
     }
