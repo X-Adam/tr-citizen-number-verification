@@ -15,7 +15,7 @@
         "php": ">=7.4",
         "ext-soap": "*",
         "x-adam/tr-citizen-number-validation": ">=4",
-        "x-adam/tr-string": ">=4"
+        "x-adam/tr-string": ">=3"
     },
     "autoload": {
         "files": [
